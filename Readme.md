@@ -23,3 +23,9 @@ Then all the images are out on display for the user to see them clearly. (the ma
 
 ![img](https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(112).png)
 Finally there is a new page where the results of interpolation, and feature addition are displayed.
+
+------------------------------------------------------------------------------------------------------------------
+
+The H5.py python files iterates through a large number of checkpoints that and then the best quality h5 file is selected for the above interface. For a deeper understanding of the model and access, please contact me via my email: anandkushagra2898@gmail.com
+
+All credits to the respective owners who helped me build upon this project.
