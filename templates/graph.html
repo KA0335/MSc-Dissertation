@@ -1,0 +1,156 @@
+<html>
+    <head>        
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		* {
+		  box-sizing: border-box;
+		}
+
+		.row {
+		  display: flex;
+		}
+
+		/* Create three equal columns that sits next to each other */
+		.column {
+		  flex: 33.33%;
+		  padding: 10px;
+		}
+		</style>
+
+		
+    </head>
+    <body bgcolor=#befaf9>
+		<h1>GAN Visual Representation </h1>
+		<p>This is a visual representation of the latent points of a GAN</p>
+        <form method="POST", action="{{url_for('graph')}}">
+			   
+				<h3>Below is the t-SNE plot for the latent images formed. Images with similar features are stacked together. </h3>  
+				<img class="NO-CACHE" src='static\plot.png' alt="flower" width="800" height="800">
+
+				<h3>These are all the images in the graph for a better view.</h3>
+				<div class="row">
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\0.png' alt="GAN Image" style="width:100%">
+				<figcaption> 0 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\1.png' alt="GAN Image" style="width:100%">
+				<figcaption> 1 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\2.png' alt="GAN Image" style="width:100%">
+				<figcaption> 2 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\3.png' alt="GAN Image" style="width:100%">
+				<figcaption> 3 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\4.png' alt="GAN Image" style="width:100%">
+				<figcaption> 4 </figcaption>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\5.png' alt="GAN Image" style="width:100%">
+				<figcaption> 5 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\6.png' alt="GAN Image" style="width:100%">
+				<figcaption> 6 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\7.png' alt="GAN Image" style="width:100%">
+				<figcaption> 7 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\8.png' alt="GAN Image" style="width:100%">
+				<figcaption> 8 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\9.png' alt="GAN Image" style="width:100%">
+				<figcaption> 9 </figcaption>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\10.png' alt="GAN Image" style="width:100%">
+				<figcaption> 10 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\11.png' alt="GAN Image" style="width:100%">
+				<figcaption> 11 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\12.png' alt="GAN Image" style="width:100%">
+				<figcaption> 12 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\13.png' alt="GAN Image" style="width:100%">
+				<figcaption> 13 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\14.png' alt="GAN Image" style="width:100%">
+				<figcaption> 14 </figcaption>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\15.png' alt="GAN Image" style="width:100%">
+				<figcaption> 15 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\16.png' alt="GAN Image" style="width:100%">
+				<figcaption> 16 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\17.png' alt="GAN Image" style="width:100%">
+				<figcaption> 17 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\18.png' alt="GAN Image" style="width:100%">
+				<figcaption> 18 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\19.png' alt="GAN Image" style="width:100%">
+				<figcaption> 19 </figcaption>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\20.png' alt="GAN Image" style="width:100%">
+				<figcaption> 20 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\21.png' alt="GAN Image" style="width:100%">
+				<figcaption> 21 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\22.png' alt="GAN Image" style="width:100%">
+				<figcaption> 22 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\23.png' alt="GAN Image" style="width:100%">
+				<figcaption> 23 </figcaption>
+			  </div>
+			  <div class="column">
+				<img class="NO-CACHE" src='static\html\24.png' alt="GAN Image" style="width:100%">
+				<figcaption> 24 </figcaption>
+			  </div>
+			</div>
+			<b> <label for="p1">First Point</label><br>
+				  <input type="text" id="p1" name="p1" value=""><br>
+				  <label for="p2">Second Point:</label><br>
+				  <input type="text" id="p2" name="p2" value=""><br><br>
+				  
+				</b>
+				<input type="submit" , value='predict!'>
+				<h3>Please select two images via the numbers used to represent them to see the tranisition between the two images. </h3>
+					(Please wait for a few seconds after pressing the submit button as the images are being generated in real time.)
+			</form>
+				      	
+		
+    </body>
+</html>
