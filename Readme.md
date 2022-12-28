@@ -17,7 +17,8 @@ Then all the images are out on display for the user to see them clearly. (the ma
 
 
 ![img](https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(113).png)
-The user could input imgae numbers to see the model in action.
+ 
+ The user could input imgae numbers to see the model in action.
 
 
 ![img](https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(112).png)
