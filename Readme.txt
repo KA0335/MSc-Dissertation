@@ -1,4 +1,2 @@
-Please make sure the correct paths are specified before running the scripts.
-Use the link to load h5 files for H5 analysis (IF REQUIRED) https://uniofnottm-my.sharepoint.com/:f:/g/personal/psxka6_nottingham_ac_uk/EljMrU2LRFtLowpKvaGA5skBpW_bXNIPmHgAX6DeJSSBxw?e=JRXAOQ
-
-Use requirements.txt to install the necessary libraries.
+#Abstract
+Generative Adversarial Networks (GANs) have become an active field for research as it can generate realistic images while learning from datasets which have no bounds. Often the latent space of a GAN is overlooked, and more emphasis is given to the model’s parameters and the dataset itself. Exploring the latent space of a GAN can not only shine some light on how to achieve better outputs from the model but also can help to produce on-demand variations of the image generated. Interpolation of latent points and efficient visualisation of the transition and feature arithmetic can help know that space better. This can lead to a better quality of synthetic image data which can include several edge cases which can be crucial while training a model or can serve as an inspiration by producing on-demand image variations.
