@@ -46,7 +46,7 @@ dict_score = {}
 dict_avg = {}
 
 #Enter path to the h5 files
-path_to_folder = 'C://Users//JUNU//Desktop//Dissertation//New folder//h5 1k epochs'
+path_to_folder = 'h5 1k epochs'
 #path to the h5 files
 path_to_h5 = path_to_folder+'//generator_model_128x128_' 
 for i in range(40):
