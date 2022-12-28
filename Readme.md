@@ -8,6 +8,17 @@ Generative Adversarial Networks (GANs) have become an active field for research 
 To achieve the exploration of the latent space and its visualisation, tsne plot was created of the latnet space, followed by feature addition, multiplication, etc. Also interpolation was done between different points. All these ideas are wrapped in an easy to use flask based local web interface. 
 
 
-!(https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(104).png?raw=true)
+![img](https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(104).png)
 This shows the t-sne plot used to get an estimate on how the images are related to each other based on their features.
 
+
+![img](https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(105).png)
+Then all the images are out on display for the user to see them clearly. (the main aim of this study was to examine the latent space and not generate quality images from a GAN)
+
+
+![img](https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(113).png)
+The user could input imgae numbers to see the model in action.
+
+
+![img](https://github.com/KA0335/MSc-Dissertation/blob/main/images/Screenshot%20(112).png)
+Finally there is a new page where the results of interpolation, and feature addition are displayed.
